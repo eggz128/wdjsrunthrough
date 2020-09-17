@@ -59,7 +59,5 @@ async function runwd() {
     await driver.findElement(By.name("add-to-cart")).click();
 }
 
-    
-
 runwd();
 
