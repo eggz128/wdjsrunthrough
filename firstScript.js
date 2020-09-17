@@ -38,7 +38,6 @@ require('chromedriver');
 //driver.findElement(By.tagName("body")).then(function(bodyTag){bodyTag.getText().then(function(theText){console.log(theText)})});
 //driver.findElement(By.tagName("body")).then(function(bodyTag){return bodyTag.getText()}).then(function(theText){console.log(theText)});
 
-
 async function runwd() {
     let driver = new Builder().forBrowser('internet explorer').build();
     // (await driver).manage().setTimeouts({
@@ -58,8 +57,9 @@ async function runwd() {
     await search.sendKeys("cap", Key.ENTER)
     await driver.sleep(3000);
     await driver.findElement(By.name("add-to-cart")).click();
-    
 }
+
+    
 
 runwd();
 
