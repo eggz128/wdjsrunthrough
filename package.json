@@ -20,5 +20,9 @@
     "mocha": "^8.1.3",
     "mochawesome": "^6.1.1",
     "selenium-webdriver": "^4.0.0-alpha.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eggz128/wdjsrunthrough.git"
   }
 }
